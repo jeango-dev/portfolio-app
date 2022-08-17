@@ -1,0 +1,79 @@
+svg {
+  width: '100%';
+  min-width: 50px;
+  overflow: visible;
+}
+
+svg .ring ellipse {
+  stroke: #61dafb;
+  stroke-width: 4px;
+  fill: none;
+  transform-origin: center;
+  stroke-dasharray: 109 6;
+  stroke-dashoffset: 26;
+}
+
+svg .ring ellipse:nth-child(3) {
+  stroke-dasharray: 0 230;
+  animation-name: orbit;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  stroke-width: 12px;
+  stroke-linecap: round;
+}
+
+svg .ring ellipse:nth-child(4) {
+  stroke-dasharray: 0 230;
+  animation-name: orbit;
+  animation-duration: 3s;
+  animation-delay: -1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  stroke-width: 12px;
+  stroke-linecap: round;
+}
+
+svg .ring ellipse:nth-child(2) elipse {
+  animation-duration: 6s;
+  animation-direction: reverse;
+}
+
+svg .ring:nth-child(3) elipse:nth-child(3) {
+  animation-delay: -1s;
+}
+
+@keyframes orbit {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-width: 12px;
+  }
+  100% {
+    stroke-dashoffset: 230;
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 {
+  position: absolute;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo-nav svg {
+  display: inline;
+}
+
+.logo-nav span {
+  font-size: 30px;
+}
