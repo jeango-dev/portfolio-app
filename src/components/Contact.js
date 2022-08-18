@@ -91,7 +91,6 @@ export const Contact = () => {
                           type="tel"
                           name="phone"
                           placeholder="Phone Number"
-                          required
                         />
                         {/* <p>Este es un error</p> */}
                       </Col>
