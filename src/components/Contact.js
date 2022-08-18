@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import profile from '../assets/img/Perfil500px.jpeg';
 import 'animate.css';
@@ -8,11 +7,8 @@ import Swal from 'sweetalert2';
 import '../styles/Contact.css';
 
 export const Contact = () => {
-  const [buttonText, setButtonText] = useState('Send');
-
   const sendEmail = (event) => {
     event.preventDefault();
-    setButtonText('Sending...');
     emailjs
       .sendForm(
         'service_qt8csi2',
@@ -22,12 +18,12 @@ export const Contact = () => {
       )
       .then((response) => console.log(response));
     Swal.fire({
-      title: '¡Thank you!',
+      title: '¡Message Sent!',
       icon: 'succes',
       text: 'Thanks for contacting me. I will contact you soon',
       button: 'Ok',
     });
-    setButtonText('Send').catch((error) => console.log(error));
+    event.target.reset().catch((error) => console.log(error));
   };
 
   return (
@@ -114,7 +110,7 @@ export const Contact = () => {
                           </p>
                         </div> */}
                         <button type="submit">
-                          <span>{buttonText}</span>
+                          <span>Send</span>
                         </button>
                       </Col>
                     </Row>
