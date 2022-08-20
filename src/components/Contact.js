@@ -59,9 +59,10 @@ export const Contact = () => {
                         <input
                           type="text"
                           name="name"
-                          placeholder="First Name"
+                          placeholder="First Name *"
                           required
                         />
+
                         {/* <p>Este es un error</p> */}
                       </Col>
 
@@ -71,7 +72,6 @@ export const Contact = () => {
                           type="text"
                           name="lastName"
                           placeholder="Last Name"
-                          required
                         />
                         {/* <p>Este es un error</p> */}
                       </Col>
@@ -80,7 +80,7 @@ export const Contact = () => {
                         <input
                           type="email"
                           name="email"
-                          placeholder="Email Address"
+                          placeholder="Email Address *"
                           required
                         />
                         {/* <p>Este es un error</p> */}
@@ -99,7 +99,7 @@ export const Contact = () => {
                         <textarea
                           rows="6"
                           name="message"
-                          placeholder="Message"
+                          placeholder="Message *"
                           required
                         ></textarea>
                         {/* <div>
