@@ -2,7 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import html from '../assets/skills/html-1.svg';
 import css from '../assets/skills/css-3.svg';
 import js from '../assets/skills/javascript-1.svg';
-import git from '../assets/skills/git.png';
+import typescript from '../assets/skills/typescript.png';
 import sass from '../assets/skills/sass.png';
 import bootstrap from '../assets/skills/bootstrap-4.svg';
 import react from '../assets/skills/react.png';
@@ -42,13 +42,13 @@ export const Skills = () => {
                       <img src={js} alt="" />
                     </Col>
                     <Col className="skills">
-                      <img src={git} alt="" />
-                    </Col>
-                    <Col className="skills">
                       <img src={sass} alt="" />
                     </Col>
                     <Col className="skills">
                       <img src={bootstrap} alt="" />
+                    </Col>
+                    <Col className="skills">
+                      <img src={typescript} alt="" />
                     </Col>
                   </Row>
                   <Row className="mx-auto" style={{ maxWidth: '900px' }}>
