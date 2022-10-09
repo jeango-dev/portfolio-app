@@ -13,6 +13,18 @@ import 'animate.css';
 export const Projects = () => {
   const projects = [
     {
+      title: 'E-Commerce App',
+      description: 'Design and Front-End Development with React JS',
+      imgUrl: projImg4,
+      url: 'https://jgd-ecommerce.vercel.app/',
+    },
+    {
+      title: 'Mooviex App',
+      description: 'Design and Front-End Development with React JS',
+      imgUrl: projImg5,
+      url: 'https://jgd-mooviex.vercel.app/',
+    },
+    {
       title: 'Weather App',
       description: 'Design and Front-End Development with React JS',
       imgUrl: projImg1,
@@ -29,18 +41,6 @@ export const Projects = () => {
       description: 'Design and Front-End Development with React JS',
       imgUrl: projImg3,
       url: 'https://jgd-pokedex.vercel.app/',
-    },
-    {
-      title: 'E-Commerce App',
-      description: 'Design and Front-End Development with React JS',
-      imgUrl: projImg4,
-      url: 'https://jgd-ecommerce.vercel.app/',
-    },
-    {
-      title: 'Mooviex App',
-      description: 'Design and Front-End Development with React JS',
-      imgUrl: projImg5,
-      url: 'https://jgd-mooviex.vercel.app/',
     },
   ];
 

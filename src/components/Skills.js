@@ -9,8 +9,8 @@ import react from '../assets/skills/react.png';
 import redux from '../assets/skills/redux.svg';
 import node from '../assets/skills/nodejs.png';
 import express from '../assets/skills/expressjs.png';
-import postgress from '../assets/skills/postgresql.svg';
-import mongo from '../assets/skills/mongodb.png';
+import django from '../assets/skills/django.svg';
+import python from '../assets/skills/python.png';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import '../styles/Skills.css';
@@ -65,10 +65,10 @@ export const Skills = () => {
                       <img src={express} alt="" />
                     </Col>
                     <Col className="skills">
-                      <img src={postgress} alt="" />
+                      <img src={python} alt="" />
                     </Col>
                     <Col className="skills">
-                      <img src={mongo} alt="" />
+                      <img src={django} alt="" />
                     </Col>
                   </Row>
                 </div>
