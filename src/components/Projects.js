@@ -3,7 +3,7 @@ import { ProjectCard } from './ProjectCard';
 import projImg1 from '../assets/projects/WeatherAppVisible.jpg';
 import projImg2 from '../assets/projects/RickymortyAppVisible.jpg';
 import projImg3 from '../assets/projects/PokedexAppVisible.jfif';
-// import projImg4 from '../assets/projects/EcommerceAppVisible.jpg';
+import projImg4 from '../assets/projects/EcommerceAppVisible.jpg';
 import projImg5 from '../assets/projects/mooviex.jfif';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
